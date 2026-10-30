@@ -21,6 +21,8 @@
 4. **UART + FIFO:** 수신한 ASCII 명령을 버튼 이벤트와 연결하고 요청한 데이터는 문자 형태로 송신
 5. **공유 출력:** Watch, Stopwatch, 센서 값을 모드에 따라 선택해 FND/UART 출력에 연결
 
+**문서 바로가기:** [시스템/FSM 구조도](docs/architecture.md) · [검증 현황](docs/verification.md) · [트러블슈팅](docs/troubleshooting.md) · [원본 소스 목록](src/README.md)
+
 ## 2. 전체 시스템 구조
 
 ```text
@@ -144,7 +146,24 @@ Verilog-FPGA-System/
 
 **검증 범위:** 이번에 제공된 ZIP에는 XDC 파일과 테스트벤치가 포함되지 않았습니다. 따라서 README 자체가 통합 기능의 검증 완료를 의미하지 않습니다.
 
-## 8. 팀 구성
+## 8. 현재 저장소 구성
+
+```text
+Verilog-FPGA-System/
+├── README.md
+├── .gitignore
+├── src/
+│   └── README.md             # 원본 RTL 업로드 대기
+└── docs/
+    ├── architecture.md       # 시스템 구조 / FSM Mermaid
+    ├── verification.md       # 검증 상태 체크리스트
+    ├── troubleshooting.md    # 문제 해결 점검 목록
+    └── upload-status.md
+```
+
+**현재 소스와 원본 draw.io 파일은 아직 GitHub로 전송되지 않았습니다.** 제공받은 원본 ZIP과 구조도는 보존하고 있으나 GitHub 폴더의 문서가 그 파일을 대체하지는 않습니다.
+
+## 9. 팀 구성
 
 | 역할 | 이름 | GitHub |
 | --- | --- | --- |
