@@ -1,0 +1,22 @@
+# Vivado-generated build outputs
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.vcd
+*.fst
+*.bit
+*.bin
+*.ltx
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.gen/
+*.ip_user_files/
+*.Xil/
+.DS_Store
+Thumbs.db
